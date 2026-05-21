@@ -25,7 +25,7 @@
   
         color:white;
   
-         padding:18 px;
+         padding:18px;
   
          gap:20px;
   
@@ -35,9 +35,9 @@
   
         color:white;
   
-         font-size: larger;
+         font-size:xx-large;
   
-         padding: 10px; 
+         padding:10px; 
   
     }
   
@@ -57,7 +57,7 @@
   
         text-align: center;
   
-        font-size: large;
+        font-size:  xx-large;
   
         font-family:Arial;
   
@@ -67,12 +67,25 @@
   
         color:palevioletred;
   
-
-  
-        font-size: large;
+      font-size: large;
   
         font-family:Arial;
   
+    }
+    
+    
+     
+     code{
+         color:black;
+         font-family:monospace;
+         padding:10px;
+         border:2px solid black;
+         display:inline-block;
+         background-color:lightyellow;
+     }
+    
+    code:hover{
+        color:red;
     }
   
     footer{
@@ -83,7 +96,10 @@
   
     
   
-</style><body><header>
+</style>
+<body>
+    
+<header>
 
     <nav>
 
@@ -91,8 +107,8 @@
         <a href="#marks">Marks</a> | 
         <a href="#hobbies">Hobbies</a>  |  
         <a href="#skills">Skills</a>  |
-        <a href="#footer">Footer</a>
-
+        <a href="#Footer">Footer</a>  |
+        <a href="#programs">My Programs</a>
     </nav>
 
 </header>
@@ -181,10 +197,54 @@
 
 
 </section>
-
-
-
 <hr>
+
+<section id="programs">
+
+<h2>Documentation Of My Programs</h2>
+
+<h3>1.Greatest Common Divisor</h3>
+
+<p>The purpose of this program is to find the greatest common divisor of given two variables</p>
+
+<h4>Concepts Used:</h4>
+<ol>
+    <li>Airthematic Operator(%)</li>
+    <li>Comparison operator(!=)</li>
+    <li>while loop</li>
+</ol>
+
+<h3>Python Code</h3>
+<pre><code>
+a=int(input("enter value of a ="))
+b=int(input("enter value of b="))
+rem=a % b
+while rem != 0:
+    a=b
+    b=rem
+    rem=a % b
+print("Greatest common divisor of a and b:",b)
+ 
+</code>
+</pre>
+
+<h3>Sample Output</h3>
+   <code>
+    <p> enter the value of a = 18
+        <br><br>
+        enter the value of b = 6
+        <br><br>
+        Greatest common divisor value of a and b : 6
+    </p>
+</code>
+<h3>Date Learned:20-5-2026</h3>
+
+
+
+</section>
+<hr>
+
+
 <footer id="Footer">
 
         <p>

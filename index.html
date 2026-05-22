@@ -268,13 +268,13 @@ for i in range(0,10):
 </code>
 <h3>Date Learned:22-5-2026</h3>
 <hr>
-<h3>2. Finding power of a number </h3>
+<h3>3.Finding power of a number </h3>
 
-<p>The purpose of this program is to find the square root of a number.</p>
+<p>The purpose of this program is to find the power of a number.</p>
 
 <h4>Concepts Used:</h4>
 <ol>
-    <li>comparison operator(==)</li>
+    <li>airthamatic operator(==)</li>
 </ol>
 
 <h3>Python Code</h3>
@@ -295,6 +295,105 @@ print("exponentation value =",a**b)
     </p>
 </code>
 <h3>Date Learned:22-5-2026</h3>
+<hr>
+<h3>4.to find the maximum number in a list </h3>
+
+<p>The purpose of this program is to find the maximum number in a given list</p>
+
+<h4>Concepts Used:</h4>
+<ol>
+    <li>for loop</li>
+    <li>comparison operator(==)</li>
+    <li>append</li>
+    <li>if-condition</li>
+</ol>
+
+<h3>Python Code</h3>
+<pre><code>
+n=[]
+a=int(input("enter the total no of items:"))
+for i in range (1,a+1):
+    value=int(input(f"enter value {i}:"))
+    n.append(value)
+
+maximum=n[0]
+    
+for i in n:
+    if i> maximum:
+        maximum =i
+print("maximum value is:",maximum)
+ </code>
+</pre>
+
+<h3>Sample Output</h3>
+   <code>
+    <p>
+    enter the total no of items:3
+    <br><br>
+    enter value 1 : 2
+    <br><br>
+    enter value 2 : 3
+    <br><br>
+    enter value 3 : 4
+    <br><br>
+    maximum value is : 4
+        
+    </p>
+</code>
+<h3>Date Learned:22-5-2026</h3>
+<hr>
+<h3>5.Linear search </h3>
+
+<p>The purpose of this program is to check the given number and its index number in the list whether the value is found or not  </p>
+
+<h4>Concepts Used:</h4>
+<ol>
+    <li>for loop</li>
+    <li>comparison operator(==)</li>
+    <li>insert</li>
+    <li>if-else-condition</li>
+</ol>
+
+<h3>Python Code</h3>
+<pre><code>
+n=[]
+a=int(input("enter no .of items:"))
+for i in range(a):
+    value=int(input("enter value i="))
+    n.insert(i,value)
+
+print(n)
+b=int(input("enter the value to search:"))
+for i in range(len(n)):
+    if n[i]==b:
+        print(f"{b} is found in position {i}")
+        break
+else:
+  print("value not found")
+ </code>
+</pre>
+
+<h3>Sample Output</h3>
+   <code>
+    <p>
+    enter the total no of items:3
+    <br><br>
+    enter value 1 : 2
+    <br><br>
+    enter value 2 : 3
+    <br><br>
+    enter value 3 : 4
+    <br><br>
+    [2,3,4]
+    <br><br>
+    enter the value to search : 3
+    <br><br>
+    3 is found in position 1
+        
+    </p>
+</code>
+<h3>Date Learned:22-5-2026</h3>
+<hr>
 
 
 </section>

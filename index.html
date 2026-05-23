@@ -296,7 +296,7 @@ print("exponentation value =",a**b)
 </code>
 <h3>Date Learned:22-5-2026</h3>
 <hr>
-<h3>4.to find the maximum number in a list </h3>
+<h3>4.To find the maximum number in a list </h3>
 
 <p>The purpose of this program is to find the maximum number in a given list</p>
 
@@ -374,8 +374,9 @@ else:
 </pre>
 
 <h3>Sample Output</h3>
+
    <code>
-    <p>
+    
     enter the total no of items:3
     <br><br>
     enter value 1 : 2
@@ -390,11 +391,49 @@ else:
     <br><br>
     3 is found in position 1
         
+    
+</code>
+
+<h3>Date Learned:22-5-2026</h3>
+<hr>
+<h3>6..Finding n prime numbers </h3>
+
+<p>The purpose of this program is to find n prime numbers.</p>
+
+<h4>Concepts Used:</h4>
+<ol>
+    <li>comparison operator</li>
+    <li>for loop</li>
+    <li>if condition</li>
+</ol>
+
+<h3>Python Code</h3>
+<pre><code>
+a=int(input("enter no.of prime numbers:"))
+num=2
+
+while a>0:
+  count=0
+  for i in range(1,num+1):
+        if num%i==0:
+            count+=1
+
+  if count==2:
+       print(num,end=",")
+       a-=1
+
+  num+=1
+ </code>
+</pre>
+
+<h3>Sample Output</h3>
+   <code>
+    <p> enter no.of prime numbers:5
+        <br><br>
+        2,3,5,7,11
     </p>
 </code>
 <h3>Date Learned:22-5-2026</h3>
-<hr>
-
 
 </section>
 <hr>
